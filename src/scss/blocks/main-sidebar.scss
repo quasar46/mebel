@@ -1,0 +1,39 @@
+.main-sidebar {
+	flex: 1 0 325px;
+	height: 100%;
+	max-width: 325px;
+	padding: 25px;
+	display: flex;
+	flex-direction: column;
+	border-right: 1px solid $color-blue;
+	.logo {
+		max-width: 110px;
+		width: 100%;
+		align-self: center;
+		margin-bottom: 35px;
+	}
+	.search {
+		margin-bottom: 45px;
+		input {
+			border: 3px solid $color-blue;
+			border-radius: 25px;
+			background-image: url("../images/icons/glass.svg");
+			background-size: 19px auto;
+			background-repeat: no-repeat;
+			background-position: 95% center;
+		}
+	}
+}
+
+.main-sidebar__nav {
+	li {
+		display: flex;
+		a {
+			padding: 20px 0;
+			text-decoration: none;
+			color: $color-blue;
+			font-size: 17px;
+			font-weight: 500;
+		}
+	}
+}
